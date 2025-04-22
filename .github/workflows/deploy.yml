@@ -4,7 +4,6 @@ on:
    workflow_dispatch:
    push:
       #  https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#push
-      branches: [main]
       tags: [v*.*.*]
 
 jobs:
